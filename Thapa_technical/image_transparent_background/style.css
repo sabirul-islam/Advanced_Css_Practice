@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://image.freepik.com/free-vector/matrix-style-binary-code-digital-background-with-falling-numbers_1017-25336.jpg);
+    background-size: 100% 100%;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+   background: #fff;
+   padding: 0 10px;
+   mix-blend-mode: screen;
+}
