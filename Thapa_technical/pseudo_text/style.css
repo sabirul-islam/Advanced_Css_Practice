@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.main_div{
+    width: 100vw;
+    height: 100vh;
+    background: #40407a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.center_div{
+    width: 70vw;
+}
+
+p{ 
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+p.first_child::first-letter{
+    color: yellow;
+    font-size: 8rem;
+    float: left;
+    display: block;
+    margin: 0 15px 0 0;
+    line-height: 0.5;
+    font-weight: bold;
+}
+
+p.first_child::first-line{
+    color: yellow;
+    font-weight: bold;
+
+}
