@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rowdies', cursive;
+}
+
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    
+    color: transparent;
+    background-image: url(https://image.freepik.com/free-psd/valentine-s-drink-menu-promotion-social-media-instagram-post-banner-template_159024-232.jpg);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
