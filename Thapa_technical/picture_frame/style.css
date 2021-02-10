@@ -45,3 +45,11 @@
 .blend{
     mix-blend-mode: multiply;
 }
+
+img{
+    object-fit: cover;
+}
+
+.design > img{
+    box-shadow: 0 0 20px #bac3c3;
+}
